@@ -27,7 +27,7 @@ The Command Line Murders
 
 There's been a murder in Terminal City, and TCPD needs your help.
 
-To figure out whodunit, you need access to a command line.
+To figure out who did it, you need access to a command line.
 
 Once you're ready, clone this repo, or [download it as a zip file](https://github.com/veltman/clmystery/archive/master.zip).
 
@@ -37,7 +37,7 @@ One way you can do this is with the command:
 
 	cat instructions
 
-To get started on how to use the command line, open cheatsheet.md or cheatsheet.pdf (from the command line, you can type 'nano cheatsheet.md').
+To get started on how to use the command line, open `cheatsheet.md` or `cheatsheet.pdf` (from the command line, you can type `nano cheatsheet.md`).
 
 Don't use a text editor to view any files except these instructions, the cheatsheet, and hints.
 
