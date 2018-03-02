@@ -26,7 +26,10 @@ grep Annabel people
 # Annabel Church  F 38  Buckingham Place, line 179
 # Annabel Fuglsang  M 40  Haley Street, line 176
 
-# -> 4 entries, we keep only Female ones (we are looking for a woman) = 2
+# -> 4 entries, we keep only Female ones (we are looking for a woman)
+
+# Annabel Sun F 26  Hart Place, line 40
+# Annabel Church  F 38  Buckingham Place, line 179
 
 # Print a street (any) to look the content -> gibberish data (= charabia)
 cat streets/Abbot_Street
@@ -35,10 +38,10 @@ cat streets/Abbot_Street
 # that in order to search for the 173, Mattapan Street
 # we have to look at file streets/Mattapan_Street at line 173
 
-# Print the 40 first lines of a file
+# Print the 40 first lines of a file..
 head -n 40 streets/Hart_Place
 
-# Keep only last one (man/tldr tail)
+# .. and keep only last one (man/tldr tail)
 head -n 40 streets/Hart_Place | tail -n 1
 # -> SEE INTERVIEW #47246024
 
@@ -56,18 +59,24 @@ cat interviews/interview-699607
 cat vehicles
 
 grep "L337" vehicles
-# -> hmm.. we need more data
+# -> hmm.. we need more data, we should print the 5 following lines
 
 # add some grep options -A (After) -B (Before) -C (both)
-grep "L337" vehicles -A 3
+grep "L337" vehicles -A 5
 
-# grep "L337.*9" vehicles -A 3 | tr '\n' ' ' | sed $'s/--/\\\n/g' | grep "Honda Color: Blue" | sed $'s/.*Owner:\ //g'
+# grep "L337.*9" vehicles -A 5 | tr '\n' ' ' | sed $'s/--/\\\n/g' | grep "Honda Color: Blue" | sed $'s/.*Owner:\ //g'
 
 # Ok now we look for Blue Hondas owners
 
 # Erika Owens
 # Aron Pilhofer
 # Heather Billings
+# Joe Germuska
+# Jeremy Bowers
+# Jacqui Maher
+
+# We can remove those with height lower than 6' (we search for a "tall man, at least 6' ")
+
 # Joe Germuska
 # Jeremy Bowers
 # Jacqui Maher
@@ -79,12 +88,6 @@ cd memberships
 cat AAA
 # -> list of members of AAA
 
-cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Erika Owens"
-# -> 0
-cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Aron Pilhofer"
-# -> 3
-cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Heather Billings"
-# -> 2
 cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Joe Germuska"
 # -> 2
 cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
