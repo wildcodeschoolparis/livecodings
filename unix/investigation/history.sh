@@ -35,7 +35,7 @@ cat streets/Abbot_Street
 # that in order to search for the 173, Mattapan Street
 # we have to look at file streets/Mattapan_Street at line 173
 
-# Print the 173 first lines of a file
+# Print the 40 first lines of a file
 head -n 40 streets/Hart_Place
 
 # Keep only last one (man/tldr tail)
