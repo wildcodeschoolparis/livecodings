@@ -10,4 +10,4 @@
 - **06/03/18** - Bootstrap (by Aurelio) [[video](https://youtu.be/fjqQAIrEgyE)]
 
 ## js
-- **19/03/18** - map/filter & DOM manipulation (injection) [video (soon)] [[sources](https://github.com/wildcodeschoolparis/livecoding-map_filter_dom)]
+- **19/03/18** - map/filter & DOM manipulation (injection) [[video](https://www.youtube.com/watch?v=Ay8kwlyXxw4)] [[sources](https://github.com/wildcodeschoolparis/livecoding-map_filter_dom)]
