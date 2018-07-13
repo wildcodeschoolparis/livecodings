@@ -20,7 +20,7 @@
 ## project3 (React..)
 - **05/05/18** -> **27/07/18** - todos-client-react [[wiki (livecodings, guides)](https://github.com/akabab/todos-client-react/wiki)]
 
-## morning live
+## morning lives
 - Map & Set [[video](https://www.youtube.com/watch?v=MgRLTtPJsKs)]
 - Logic Operator [[video](https://www.youtube.com/watch?v=4PJr3tI4zow)]
 - Promises [[video](https://www.youtube.com/watch?v=GOdrJ_xOaL8)]
